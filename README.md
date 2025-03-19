@@ -1,6 +1,10 @@
-# 🌟 **Glow Pack - Premium PNG Collection by Dzyns by Soham**  
+# 🌟 **Glow Pack - Premium PNG Collection by Dzyns by Soham**
 
-Welcome to **Glow Pack** – an exclusive collection of premium, glowing PNG images designed by **Dzyns by Soham**. Whether you're a content creator, designer, or just want to add a spark of creativity, this pack is perfect for enhancing your designs!  
+Welcome to **Glow Pack** – an exclusive collection of premium, glowing PNG images designed by **Dzyns by Soham**. Whether you're a content creator, designer, or just want to add a spark of creativity, this pack is perfect for enhancing your designs!
+
+---
+## **WEBSITE**
+https://glowpack-dzynsbysoham.netlify.app
 
 ---
 
@@ -10,14 +14,14 @@ Welcome to **Glow Pack** – an exclusive collection of premium, glowing PNG ima
 ✨ **Easy Image Preview**  
 ✨ **One-Click Download for Single or All Images**  
 ✨ **Mobile-Friendly UI**  
-✨ **Minimalistic and Modern Design**  
+✨ **Minimalistic and Modern Design**
 
 ---
 
 ## 🖼️ **Preview**
 
 ![Glow Pack Preview](static/images/glow1.png)  
-Experience the glow like never before!  
+Experience the glow like never before!
 
 ---
 
@@ -26,8 +30,8 @@ Experience the glow like never before!
 - **HTML5** - For Structure  
 - **CSS3** - For Stylish Design  
 - **JavaScript** - For Interactivity  
-- **Python (Flask)** - For Backend  
-- **JSZip** - For Image Compression and Download  
+- **Netlify** - For Static Hosting  
+- **JSZip** - For Image Compression and Download
 
 ---
 
@@ -35,62 +39,49 @@ Experience the glow like never before!
 
 1. **Clone the Repository**  
     ```bash
-    git clone https://github.com/yourusername/glow-pack.git
+    git clone https://github.com/yourusername/glowpack-dzynsbysoham.git
     cd glow-pack
     ```
 
-2. **Install Dependencies**  
-    Make sure you have Python installed, then run:  
-    ```bash
-    pip install flask
-    ```
-
-3. **Run the App**  
-    ```bash
-    python app.py
-    ```
-
-4. **Access the Website**  
-    Open your browser and go to:  
-    ```
-    http://localhost:5000
-    ```
+2. **Deploy on Netlify**  
+   - Drag and drop the project folder onto [Netlify](https://glowpack-dzynsbysoham.netlify.app/) or connect your GitHub repository.  
+   - Netlify will automatically deploy the site and provide you with a live URL.
 
 ---
 
 ## 🖱️ **Usage Instructions**
 
 1. **Preview Images:**  
-    Click on any image to preview it in fullscreen.  
+    Click on any image to preview it in fullscreen.
 2. **Download Single Image:**  
-    Click the **Download** icon on an image to save it.  
+    Click the **Download** icon on an image to save it.
 3. **Download All Images:**  
-    Click on the **Download All** button to get a ZIP of all images.  
+    Click on the **Download All** button to get a ZIP of all images.
 4. **Thank You Page:**  
-    Click on the **Thank Me** button to visit a special page of appreciation!  
+    Click on the **Thank Me** button to visit a special page of appreciation!
 
 ---
 
-## 🎨 **Color Theme**  
+## 🎨 **Color Theme**
 
 The website uses a **dark and glowing** color theme:  
 - **Primary Color:** `#2A2A2A` (Dark Grey)  
 - **Accent Color:** `#FFD700` (Golden Glow)  
 - **Text Color:** `#EAEAEA` (Soft White)  
-- **Button Hover:** Gradient Glow Effect  
+- **Button Hover:** Gradient Glow Effect
 
 ---
 
-## 📧 **Contact**  
+## 📧 **Contact**
 
 For inquiries, feel free to reach out:  
-- Instagram: [@sohammedleyofficial](https://www.instagram.com/sohammedleyofficial)  
-- Email: [contact@dzynsbysoham.com](mailto:contact@dzynsbysoham.com)  
+- Instagram: [@dzynsbysoham](https://www.instagram.com/dzynsbysoham)  
+- Email: [businessbysoham@gmail.com](mailto:businessbysoham@gmail.com)
 
 ---
 
-## ⭐ **Show Your Support!**  
+## ⭐ **Show Your Support!**
 
-If you love the Glow Pack, consider giving it a ⭐ on GitHub!  
+If you love the Glow Pack, consider giving it a ⭐ on GitHub!
 
 **Happy Designing!** 🎨✨
