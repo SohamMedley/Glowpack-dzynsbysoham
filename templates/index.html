@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glow Pack - Dzyns by Soham</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <div class="header-content">
+        <div class="logo-container">
+          <div class="logo-glow"></div>
+          <h1>Glow Pack</h1>
+        </div>
+        <p>Exclusive Premium PNG Collection by Dzyns by Soham</p>
+      </div>
+    </header>
+
+    <div class="action-buttons">
+      <button id="downloadAllBtn" class="btn btn-primary">
+        <i class="fas fa-download"></i> Download All
+      </button>
+      <button id="thankMeBtn" class="btn btn-secondary">
+        <i class="fas fa-heart"></i> Thank Me
+      </button>
+    </div>
+
+    <section class="gallery">
+      <h2>Premium Collection <span class="accent">.</span></h2>
+      <div class="image-grid" id="imageGrid">
+        <!-- Images will be populated using JS -->
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <p>Designed with <i class="fas fa-heart pulse"></i> by <a href="#">dzynsbysoham</a></p>
+        <p class="copyright">© 2025 All Rights Reserved</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Image Preview Modal -->
+  <div id="imagePreviewModal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <img id="previewImage" src="{{ url_for('static', filename='images/placeholder.svg') }}" alt="Preview">
+      <a id="downloadBtn" class="btn btn-primary" download>
+        <i class="fas fa-download"></i> Download
+      </a>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
