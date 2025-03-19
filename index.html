@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Glow Pack - Dzyns by Soham</title>
+  <!-- Link to your final CSS -->
   <link rel="stylesheet" href="./static/css/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
@@ -23,7 +24,7 @@
       <button id="downloadAllBtn" class="btn btn-primary">
         <i class="fas fa-download"></i> Download All
       </button>
-      <button onclick="window.location.href='./thank.html'" class="btn btn-secondary">
+      <button id="thankMeBtn" class="btn btn-secondary">
         <i class="fas fa-heart"></i> Thank Me
       </button>
     </div>
@@ -38,7 +39,9 @@
     <footer>
       <div class="footer-content">
         <p>Designed with <i class="fas fa-heart pulse"></i> by <a href="#">dzynsbysoham</a></p>
-        <p class="copyright">© 2025 All Rights Reserved</p>
+        <p class="copyright">
+          © 2025 All Rights Reserved
+        </p>
       </div>
     </footer>
   </div>
@@ -47,6 +50,7 @@
   <div id="imagePreviewModal" class="modal">
     <div class="modal-content">
       <span class="close-modal">&times;</span>
+      <!-- The default image to show in the modal. It can be glow1.png or placeholder.svg -->
       <img id="previewImage" src="./static/images/glow1.png" alt="Preview">
       <a id="downloadBtn" class="btn btn-primary" download>
         <i class="fas fa-download"></i> Download
@@ -54,6 +58,7 @@
     </div>
   </div>
 
+  <!-- Final JS -->
   <script src="./static/js/script.js"></script>
 </body>
 </html>
